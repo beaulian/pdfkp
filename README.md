@@ -1,0 +1,2 @@
+# pdfkp
+一个pdf关键字所在文段提取器,不过得先用pdf2htmlEX把pdf转成html再分析
