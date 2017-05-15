@@ -69,7 +69,7 @@ def parse(keyword):
                     f1.write("===========================================\n")
                     count = 1
                     for result, _ in groupby(results):
-                        f1.write("结果"+str(count)+": "+result.encode("utf-8").strip()+"\")
+                        f1.write("结果"+str(count)+": "+result.encode("utf-8").strip()+"\n")
                         count += 1
                     f1.write("\n")
 
